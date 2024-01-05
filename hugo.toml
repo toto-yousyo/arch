@@ -1,0 +1,9 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'jp'
+title = 'toto arch linux'
+theme = 'm10c'
+
+[params]
+  author = 'toto'
+  avatar = '/images/toto.png'
+
