@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on toto arch linux</title>
+    <link>http://localhost:1313/article/</link>
+    <description>Recent content in Articles on toto arch linux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Fri, 05 Jan 2024 22:43:35 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linuxはじめてみた</title>
+      <link>http://localhost:1313/article/240105/</link>
+      <pubDate>Fri, 05 Jan 2024 22:43:35 +0900</pubDate>
+      <guid>http://localhost:1313/article/240105/</guid>
+      <description>Arch Linuxに移行 Ubuntuの環境を、Arch Linuxに変更することにした。暇だったので。&#xA;Arch Linuxは初心者には難しいらしい。&#xA;思いっきり初心者だけど、archinstallを使用すれば、こんな僕でもなんとかできそうな気がした。&#xA;下記記事を見ながら試してみる。ちなみに実際にインストールする前に「Vertual Box」でも試してみました。&#xA;「Arch Linux」のインストールを「archinstall」で簡単にするには&#xA;インストール いつもはその辺に転がっているのに、いざ必要なときに見つからないUSBメモリ。&#xA;Arch Linuxのisoファイルを入れるのに必要なのに、家中探し回って、家族に貸した貸してないの問答を繰り返し、それでも全く見つからない。インストールする前から時間がかかって悲しい。&#xA;諦めてDVDに焼くことにする。UbuntuでDVD焼くなんて初めてだけど、とりあえず色々調べながら、その辺に転がっていた（すぐ見つかった）外付けDVDドライブと空ディスクにisoファイルを入れる。&#xA;ファイルサイズが小さいので、すぐに準備ができて、よっとインストールを始めることができた。&#xA;いろいろ初期設定 とりあえずLocaleを英語に。日本語は選んだとたんに豆腐文字ばかりになったので。&#xA;あとはデスクトップ環境。これはVertualBoxでいろいろ試してみてたので、Xfceに決めてました。ごてごてしてなくて好印象。&#xA;あとは基本記事通りにすすめる。あと、この設定のときだけはネットは有線にしてました。&#xA;再起動したら無事にArch Linuxに。レトロなネズミがほほえましい画面。すぐ変えたけど。&#xA;これから色々入れていこうと思います。</description>
+    </item>
+  </channel>
+</rss>
