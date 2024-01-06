@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 06 Jan 2024 12:43:04 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2024 20:20:32 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの続き</title>
+      <link>https://yousyo.com/archlinux/240106-10/</link>
+      <pubDate>Sat, 06 Jan 2024 20:20:32 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-10/</guid>
+      <description>Hugoの続き Github Actionで自動的にデプロイを目指してなかなか時間がかかってしまいました。 なぜか、Githubにpushして、Github Actionがうごいたところで、デプロイがいつまでも終わらない。 何がだめなのか、と思って一応サイトを見に行ったら、ちゃんとできてました。 ただ、もともとサーバーにあったフォルダがいくつか消えてました。記事がかなり消えてしまいました…。
+まあ、気を取り直し、とりあえず今手元に残っている記事だけでいくことにしました。
+画像の配置 そのまま過去記事のマークダウンファイルを使用すると、画像がリンク切れに。やっぱそうなりますよねえ。 とりあえず次は画像の貼り方を調べるとします。
+貼り付け実験　そのまま貼り付け↓ Shortcode方式で貼り付け↓
+{{&amp;lt; figure src=&amp;quot;/240105.png&amp;quot; width=&amp;quot;320&amp;quot; &amp;gt;}} </description>
+    </item>
     <item>
       <title>Hugoでブログを作ってみた</title>
       <link>https://yousyo.com/archlinux/240106-9/</link>
