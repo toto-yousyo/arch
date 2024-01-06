@@ -22,9 +22,6 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    - name: List output files
-      run: ls public/
-
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0   
       env:                                        
