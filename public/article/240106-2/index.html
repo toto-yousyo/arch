@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="jp">
+  <head>
+    <title>ウインドウマネージャをi3にしてみた // toto arch linux</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.121.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="toto" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ウインドウマネージャをi3にしてみた"/>
+<meta name="twitter:description" content="ウィンドウマネージャにはタイル型というものがある。ここからでした。
+Arch Linuxを使っている人たちのブログのスクリーンをみて、「タイル型を使っていたんだ！」と納得。それまで、マウスでウィンドウサイズをえっちらおっちら変更して、大きさ合わせてスクショ撮ってると思ってたので。
+まず、タイル型には何があるか調べてみると、awsomeとi3が有名みたい。とりあえずNeovimみたいなやつだな！と思ってi3のほうにしました。たぶんこっちで良かった、と今は思ってます。
+そして、あちこちのブログを見ながらインストールしてみました。それまでウィンドウマネージャはXfceだったので、それを切り替えるのに、ログイン画面で「Ctrl&#43;Alt&#43;F2」を押して、素敵な黒背景に文字だけのログイン画面に移動。
+startxとして、やっとi3が動き出しました。この辺、自分で何やってるかよくわかってません。
+そしたら、i3の初回起動時に出てくるダイアログがでてきました。i3/configはもちろん作ってもらって、$modキーはWinキーに割当。（あとでAltキーにした）
+＜OK＞でいよいよ立ち上がるぞっと思ってると、全然何も起きない‥。。
+と思ってたらこの何もなさそうに見える真っ黒画面で、すでにi3のウィンドウマネージャになってたんだね。
+左下に小さく「１」とあって、右下にも老眼にはまったく判別できないi3statusが表示されてました。
+それから設定をいろいろ。何をしたかうろ覚えですが、ノートのタッチパッドのクリックが効かなかったので、xinputで有効にしたり、キーバインドをvimと同じh,j,k,lにしたり。
+背景画像を設定するのにfehをインストールして、ウインドウを透過するのにpecomをインストールして…。なんだか２日前にXfceのときにやっていた設定を繰り返しまたしてるみたいな気持ちになりながら、（でもやり方が全然ちがう）とりあえず使える状態にまで持っていきました。
+このタイル型の、マウスでウィンドウを操作するやり方と根本的に違う操作方法は、めちゃくちゃはまりました。
+Neovimを使いだしてから、マウスをあまり使用しなくなり、ノートのタッチパッドのみでも十分使用できる、と感じるようになりましたが、i3を使いだしてから、そのタッチパッドもあまり使用しなくなり、ほぼホームポジションから指を動かさずにすむようになってきました。
+文字入力もAZIKを覚えることで指の移動がヘリ、段々と理想的な形に近づいてきました。
+次は、どうしてもタッチパッドを使わないといけなかったfirefoxを拡張機能で、キー操作だけで見れるようにします。"/>
+
+    <meta property="og:title" content="ウインドウマネージャをi3にしてみた" />
+<meta property="og:description" content="ウィンドウマネージャにはタイル型というものがある。ここからでした。
+Arch Linuxを使っている人たちのブログのスクリーンをみて、「タイル型を使っていたんだ！」と納得。それまで、マウスでウィンドウサイズをえっちらおっちら変更して、大きさ合わせてスクショ撮ってると思ってたので。
+まず、タイル型には何があるか調べてみると、awsomeとi3が有名みたい。とりあえずNeovimみたいなやつだな！と思ってi3のほうにしました。たぶんこっちで良かった、と今は思ってます。
+そして、あちこちのブログを見ながらインストールしてみました。それまでウィンドウマネージャはXfceだったので、それを切り替えるのに、ログイン画面で「Ctrl&#43;Alt&#43;F2」を押して、素敵な黒背景に文字だけのログイン画面に移動。
+startxとして、やっとi3が動き出しました。この辺、自分で何やってるかよくわかってません。
+そしたら、i3の初回起動時に出てくるダイアログがでてきました。i3/configはもちろん作ってもらって、$modキーはWinキーに割当。（あとでAltキーにした）
+＜OK＞でいよいよ立ち上がるぞっと思ってると、全然何も起きない‥。。
+と思ってたらこの何もなさそうに見える真っ黒画面で、すでにi3のウィンドウマネージャになってたんだね。
+左下に小さく「１」とあって、右下にも老眼にはまったく判別できないi3statusが表示されてました。
+それから設定をいろいろ。何をしたかうろ覚えですが、ノートのタッチパッドのクリックが効かなかったので、xinputで有効にしたり、キーバインドをvimと同じh,j,k,lにしたり。
+背景画像を設定するのにfehをインストールして、ウインドウを透過するのにpecomをインストールして…。なんだか２日前にXfceのときにやっていた設定を繰り返しまたしてるみたいな気持ちになりながら、（でもやり方が全然ちがう）とりあえず使える状態にまで持っていきました。
+このタイル型の、マウスでウィンドウを操作するやり方と根本的に違う操作方法は、めちゃくちゃはまりました。
+Neovimを使いだしてから、マウスをあまり使用しなくなり、ノートのタッチパッドのみでも十分使用できる、と感じるようになりましたが、i3を使いだしてから、そのタッチパッドもあまり使用しなくなり、ほぼホームポジションから指を動かさずにすむようになってきました。
+文字入力もAZIKを覚えることで指の移動がヘリ、段々と理想的な形に近づいてきました。
+次は、どうしてもタッチパッドを使わないといけなかったfirefoxを拡張機能で、キー操作だけで見れるようにします。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/article/240106-2/" /><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2024-01-06T11:06:58+09:00" />
+<meta property="article:modified_time" content="2024-01-06T11:06:58+09:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/images/toto.png" alt="toto" /></a>
+      <span class="app-header-title">toto arch linux</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">ウインドウマネージャをi3にしてみた</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 6, 2024
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>ウィンドウマネージャにはタイル型というものがある。ここからでした。</p>
+<p>Arch Linuxを使っている人たちのブログのスクリーンをみて、「タイル型を使っていたんだ！」と納得。それまで、マウスでウィンドウサイズをえっちらおっちら変更して、大きさ合わせてスクショ撮ってると思ってたので。</p>
+<p>まず、タイル型には何があるか調べてみると、awsomeとi3が有名みたい。とりあえずNeovimみたいなやつだな！と思ってi3のほうにしました。たぶんこっちで良かった、と今は思ってます。</p>
+<p>そして、あちこちのブログを見ながらインストールしてみました。それまでウィンドウマネージャはXfceだったので、それを切り替えるのに、ログイン画面で「Ctrl+Alt+F2」を押して、素敵な黒背景に文字だけのログイン画面に移動。</p>
+<p><code>startx</code>として、やっとi3が動き出しました。この辺、自分で何やってるかよくわかってません。</p>
+<p>そしたら、i3の初回起動時に出てくるダイアログがでてきました。<code>i3/config</code>はもちろん作ってもらって、<code>$modキ</code>ーは<code>Win</code>キーに割当。（あとで<code>Alt</code>キーにした）</p>
+<p>＜OK＞でいよいよ立ち上がるぞっと思ってると、全然何も起きない‥。。</p>
+<p>と思ってたらこの何もなさそうに見える真っ黒画面で、すでにi3のウィンドウマネージャになってたんだね。</p>
+<p>左下に小さく「１」とあって、右下にも老眼にはまったく判別できないi3statusが表示されてました。</p>
+<p>それから設定をいろいろ。何をしたかうろ覚えですが、ノートのタッチパッドのクリックが効かなかったので、<code>xinput</code>で有効にしたり、キーバインドをvimと同じh,j,k,lにしたり。</p>
+<p>背景画像を設定するのにfehをインストールして、ウインドウを透過するのにpecomをインストールして…。なんだか２日前にXfceのときにやっていた設定を繰り返しまたしてるみたいな気持ちになりながら、（でもやり方が全然ちがう）とりあえず使える状態にまで持っていきました。</p>
+<p>このタイル型の、マウスでウィンドウを操作するやり方と根本的に違う操作方法は、めちゃくちゃはまりました。</p>
+<p>Neovimを使いだしてから、マウスをあまり使用しなくなり、ノートのタッチパッドのみでも十分使用できる、と感じるようになりましたが、i3を使いだしてから、そのタッチパッドもあまり使用しなくなり、ほぼホームポジションから指を動かさずにすむようになってきました。</p>
+<p>文字入力もAZIKを覚えることで指の移動がヘリ、段々と理想的な形に近づいてきました。</p>
+<p>次は、どうしてもタッチパッドを使わないといけなかったfirefoxを拡張機能で、キー操作だけで見れるようにします。</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
