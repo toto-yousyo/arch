@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinuxes on toto arch linux</title>
+    <link>https://yousyo.com/archlinux/</link>
+    <description>Recent content in Archlinuxes on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 06 Jan 2024 12:43:04 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoでブログを作ってみた</title>
+      <link>https://yousyo.com/archlinux/240106-9/</link>
+      <pubDate>Sat, 06 Jan 2024 12:43:04 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-9/</guid>
+      <description>次はHugo wordpressでブログを上げていたけれど、思い立ってHugoを使ってみることにしました。 Hugoの導入は簡単。yay -S hugoでまずはHugoをインストール。 そしてHugoのサイトの通りにまずは、Quickstartを試してから本番に進みました。
+テーマを選んでgit submoduleで読み込み。そしたら、テスト記事を作る。 hugoでHTML化し、ローカルホストで確認しました。
+それからGithubの準備。Github ActionsでPushしたらそのまま公開できるようにしたかったから。
+Hugo &amp;gt; Github Actions &amp;gt; ロリポップ ここから今契約しているロリポップにGithub Actionsを利用して公開するところで詰まってしまいました。
+Github Actionsのymlファイルのビルドで失敗。なぜかbuild &amp;amp; deployがいつまでたっても終わらない。
+そこで諦めました。うーん、よくわからん。。</description>
+    </item>
+    <item>
+      <title>USキーボードに変更したメモ</title>
+      <link>https://yousyo.com/archlinux/240106-8/</link>
+      <pubDate>Sat, 06 Jan 2024 11:37:28 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-8/</guid>
+      <description>外付けの87キーのUSキーを使うためのメモ。
+ノートPCは日本語配列だったので、キーボードの設定をvconsole.confを編集する。
+JPをUSに変えてみたけど、なぜかUS配列に変わってくれない。
+いろいろ試して、結局fcitxの設定内からmozcじゃないほうのKEYBOARD Japaneseを削除して、English（US）を追加。
+これでやっとUS配列になってくれた。</description>
+    </item>
+    <item>
+      <title>タッチパッドがサスペンド復帰後に効かなくなる</title>
+      <link>https://yousyo.com/archlinux/240106-7/</link>
+      <pubDate>Sat, 06 Jan 2024 11:35:26 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-7/</guid>
+      <description>サスペンド復帰後、タッチパッドでカーソルやクリックはできるのですが、タップでのクリックだけができなくなっていました。いつものようにあれこれ試してだめだったのですが、やっと治りました。
+下記のコードを~/etc/xorg.confに書き込む
+Section &amp;#34;InputClass&amp;#34; Identifier &amp;#34;libinput touchpad catchall&amp;#34; MatchIsTouchpad &amp;#34;on&amp;#34; MatchDevicePath &amp;#34;/dev/input/event*&amp;#34; Driver &amp;#34;libinput&amp;#34; Option &amp;#34;Tapping&amp;#34; &amp;#34;on&amp;#34; EndSection </description>
+    </item>
+    <item>
+      <title>気がつけば日本語が打てなくなってた</title>
+      <link>https://yousyo.com/archlinux/240106-6/</link>
+      <pubDate>Sat, 06 Jan 2024 11:27:29 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-6/</guid>
+      <description>ずっとターミナルで設定いじっていると、いつの間にか日本語が打てなくなっていて、気がついたときには一体何が原因だったのか分からなくなってました。 色々振り返ってみるとターミナルをURxvtに変えたからだったようで、ホーム直下に.Xdefaultsを作成し、下記を入力。
+urxvt.inputMethod: fcitx あと、書体もIPAGothicに設定して、無事に日本語がうてるようになりました。</description>
+    </item>
+    <item>
+      <title>Seleniumを入れてみた</title>
+      <link>https://yousyo.com/archlinux/240106-5/</link>
+      <pubDate>Sat, 06 Jan 2024 11:14:55 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-5/</guid>
+      <description>今日はSeleniumを入れてみました。
+Seleniumのバージョンが新しくなってると色々変わってるみたいで、すんなりとは動かなかったです。
+いろいろ試してみながら、夜になってやっとfirefoxが動いてくれました。
+あきらめずに色々と探さないといけませんね。
+↓こちらのおかげで、なんとか動きました。 【Python】SeleniumでWebスクレイピングをする Selenium NameError: name &amp;lsquo;By&amp;rsquo; is not defined - Qiita </description>
+    </item>
+    <item>
+      <title>i3-wmのターミナル周りをいじった</title>
+      <link>https://yousyo.com/archlinux/240106-4/</link>
+      <pubDate>Sat, 06 Jan 2024 11:12:53 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-4/</guid>
+      <description>ターミナルは「Terminator」だったが、Uxrvtに変更。
+ついでにzshにして、「Oh-My-ZSH!」でテーマ変更。
+補完関係のプラグインをいくつか入れ、「powerlevel10k」でトレインを追加。
+アイコンが文字化けしてたので、Meslo Nerd Fontをインストール。
+無事アイコンも表示されました。
+さらにi3-wm標準のi3statusやdmenuをPolybarやRofiに入れ替え。
+かなり見た目が変わっていい気分の正月です。</description>
+    </item>
+    <item>
+      <title>i3に変えてからサスペンド復帰後にタッチパッドが効かなくなる</title>
+      <link>https://yousyo.com/archlinux/240106-3/</link>
+      <pubDate>Sat, 06 Jan 2024 11:09:52 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-3/</guid>
+      <description>ふと気づいたら、いつの間にかサスペンドの復帰後にタッチパッドのクリックが効かなくなっていました。
+普通に動かしたり、タッチパッドを押し込むクリックはできるのに、タッチでのクリックができない。いつものようにあれこれ試してだめだったのですが、やっと治りました。
+下記のコードを~/etc/xorg.confに書き込みます。
+Section &amp;#34;InputClass&amp;#34; Identifier &amp;#34;libinput touchpad catchall&amp;#34; MatchIsTouchpad &amp;#34;on&amp;#34; MatchDevicePath &amp;#34;/dev/input/event*&amp;#34; Driver &amp;#34;libinput&amp;#34; Option &amp;#34;Tapping&amp;#34; &amp;#34;on&amp;#34; EndSection </description>
+    </item>
+    <item>
+      <title>ウインドウマネージャをi3にしてみた</title>
+      <link>https://yousyo.com/archlinux/240106-2/</link>
+      <pubDate>Sat, 06 Jan 2024 11:06:58 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-2/</guid>
+      <description>ウィンドウマネージャにはタイル型というものがある。ここからでした。
+Arch Linuxを使っている人たちのブログのスクリーンをみて、「タイル型を使っていたんだ！」と納得。それまで、マウスでウィンドウサイズをえっちらおっちら変更して、大きさ合わせてスクショ撮ってると思ってたので。
+まず、タイル型には何があるか調べてみると、awsomeとi3が有名みたい。とりあえずNeovimみたいなやつだな！と思ってi3のほうにしました。たぶんこっちで良かった、と今は思ってます。
+そして、あちこちのブログを見ながらインストールしてみました。それまでウィンドウマネージャはXfceだったので、それを切り替えるのに、ログイン画面で「Ctrl+Alt+F2」を押して、素敵な黒背景に文字だけのログイン画面に移動。
+startxとして、やっとi3が動き出しました。この辺、自分で何やってるかよくわかってません。
+そしたら、i3の初回起動時に出てくるダイアログがでてきました。i3/configはもちろん作ってもらって、$modキーはWinキーに割当。（あとでAltキーにした）
+＜OK＞でいよいよ立ち上がるぞっと思ってると、全然何も起きない‥。。
+と思ってたらこの何もなさそうに見える真っ黒画面で、すでにi3のウィンドウマネージャになってたんだね。
+左下に小さく「１」とあって、右下にも老眼にはまったく判別できないi3statusが表示されてました。
+それから設定をいろいろ。何をしたかうろ覚えですが、ノートのタッチパッドのクリックが効かなかったので、xinputで有効にしたり、キーバインドをvimと同じh,j,k,lにしたり。
+背景画像を設定するのにfehをインストールして、ウインドウを透過するのにpecomをインストールして…。なんだか２日前にXfceのときにやっていた設定を繰り返しまたしてるみたいな気持ちになりながら、（でもやり方が全然ちがう）とりあえず使える状態にまで持っていきました。
+このタイル型の、マウスでウィンドウを操作するやり方と根本的に違う操作方法は、めちゃくちゃはまりました。
+Neovimを使いだしてから、マウスをあまり使用しなくなり、ノートのタッチパッドのみでも十分使用できる、と感じるようになりましたが、i3を使いだしてから、そのタッチパッドもあまり使用しなくなり、ほぼホームポジションから指を動かさずにすむようになってきました。
+文字入力もAZIKを覚えることで指の移動がヘリ、段々と理想的な形に近づいてきました。
+次は、どうしてもタッチパッドを使わないといけなかったfirefoxを拡張機能で、キー操作だけで見れるようにします。</description>
+    </item>
+    <item>
+      <title>日本語入力をAZIKにしてみた</title>
+      <link>https://yousyo.com/archlinux/240106-1/</link>
+      <pubDate>Sat, 06 Jan 2024 11:01:48 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-1/</guid>
+      <description>ローマ字入力が無駄な文字打ちをしているみたいで、ずっと気になってました。
+親指シフトやDvorak入力を試したけど、当然のように挫折。
+そんなときに、AZIKを知って、試して見えることにしました。
+AZIKがいいのは、基本ローマ字入力でできるというところ。
+だから試しやすい。まず音引き「ー」を右手薬指を斜め見しながら打たなくてもよくなたった。「：」で打てます。
+あと「ます」（MS）や「ました」（MAST）が文字うち数がへったこと。
+小さい「つ」も「；」でうてること。ホーム位置から手を動かす距離も短くなります。
+慣れないうちは普通に打ってもだいたい使えます。
+少しずつ、覚えるキーが増えていくと、やる気にもつながりますね！
+しばらくはチートシートを立ち上げながら入力するほうがいいかも。
+下記をご参考まで。というかこれがすべて。
+AZIK総合解説書
+あとはGoogle日本語入力で、AZIKのテーブル（公開してくれている人がいっぱいいるみたい）を読み込めば、手軽に試せます。</description>
+    </item>
+    <item>
+      <title>Arch Linuxにいろいろ入れてみた</title>
+      <link>https://yousyo.com/archlinux/240106/</link>
+      <pubDate>Sat, 06 Jan 2024 09:22:23 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106/</guid>
+      <description>とりあえずGitとyay Git入れないとはじまらない（ような気がする）ので、pacmanでインストール。
+そしてAURヘルパーとかいうyayをいれる。yayについて調べてると、yayの英文ページをページ翻訳して読んでたら、「イェーーーッイ」って訳されてて面白かった。
+Neovim 次はNeovim。最初はそのまま&amp;quot;Neovim&amp;quot;でインストールしたけど、やっぱりあとでNightlyに入れ直しました。
+前の環境からnvimフォルダをクラウドに入れていたので、それを落としてきて同じ.configに入れ直しました。
+Packerがまたプラグインを続々とインストールしなおしてくれたけど、ちょこちょことエラーが残ってた。とりあえずほっときます。
+Vivaldi ブラウザはこれ。Firefoxでもいいけれど、Vivaldiアカウントにすでにいろいろ記録されているので、サインインすれば同じ環境にできて楽。
+見た目系 あと壁紙やらアイコンやら。グリーンにしたかったので、グリーンの壁紙と、アイコンも探してきた。「breeze-dark_green」にする。
+[https://www.gnome-look.org/p/1328162]
+また、設定で上下のパネルも透過で見えなくして、デスクトップから何もなくす。もちろんHOMEフォルダも。
+Albert アプリを開くのが楽なので「Albert」。Ctrl + Spaceでウィンドウが出てくるAlfred的なやつ。
+[https://albertlauncher.github.io]
+読み物系 PDFリーダー Foxit Readerにしました。pacmanかyayかは忘れた。
+[https://www.foxit.com/pdf-reader/]
+EPUBリーダー Foliateにしました。これもどっちで入れたか忘れた。pacmanで探してなかったらyayで。だいたい見つかります。
+Foliate めっちゃ見た目よし。とても気に入ってます。
+[https://johnfactotum.github.io/foliate/]
+Kindle いちいちめんどくさいKindleのインストール。でも結構本が入ってしまっているので、仕方なく。だいたい１回のインストールで無事起動できたことがない。
+もちろんwineのインストールももれなくついてきます。今回はwine、wineconfigは特に設定やバージョンを変えなくてもOKだった。
+ただkindleは現行(2.0)ではぴくりともしないので、1.39を探してくる必要あり。
+日本語 Notoを入れて、Mozcも入れる。とりあえず日本語環境は特に問題なくいけた。理想だったArch Linux自体は英語環境で、ディレクトリも英語のまま。日本語だけ入力のときに使用、ってできた。
+そんなところです。</description>
+    </item>
+    <item>
+      <title>Arch Linuxはじめてみた</title>
+      <link>https://yousyo.com/archlinux/240105/</link>
+      <pubDate>Fri, 05 Jan 2024 22:43:35 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240105/</guid>
+      <description>Arch Linuxに移行 Ubuntuの環境を、Arch Linuxに変更することにした。暇だったので。
+Arch Linuxは初心者には難しいらしい。
+思いっきり初心者だけど、archinstallを使用すれば、こんな僕でもなんとかできそうな気がした。
+下記記事を見ながら試してみる。ちなみに実際にインストールする前に「Vertual Box」でも試してみました。
+「Arch Linux」のインストールを「archinstall」で簡単にするには
+インストール いつもはその辺に転がっているのに、いざ必要なときに見つからないUSBメモリ。
+Arch Linuxのisoファイルを入れるのに必要なのに、家中探し回って、家族に貸した貸してないの問答を繰り返し、それでも全く見つからない。インストールする前から時間がかかって悲しい。
+諦めてDVDに焼くことにする。UbuntuでDVD焼くなんて初めてだけど、とりあえず色々調べながら、その辺に転がっていた（すぐ見つかった）外付けDVDドライブと空ディスクにisoファイルを入れる。
+ファイルサイズが小さいので、すぐに準備ができて、よっとインストールを始めることができた。
+いろいろ初期設定 とりあえずLocaleを英語に。日本語は選んだとたんに豆腐文字ばかりになったので。
+あとはデスクトップ環境。これはVertualBoxでいろいろ試してみてたので、Xfceに決めてました。ごてごてしてなくて好印象。
+あとは基本記事通りにすすめる。あと、この設定のときだけはネットは有線にしてました。
+再起動したら無事にArch Linuxに。レトロなネズミがほほえましい画面。すぐ変えたけど。
+これから色々入れていこうと思います。</description>
+    </item>
+  </channel>
+</rss>
