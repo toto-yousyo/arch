@@ -32,13 +32,14 @@ ShowCodeCopyButtons = false
 ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
-disableSpecial1stPost = false
+disableSpecial1stPost = true
 disableScrollToTop = false
 comments = false
 hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
+mainSections = [ "archlinux" ]
 
   [params.assets]
   favicon = ""
@@ -84,10 +85,6 @@ SiteVerificationTag = "XYZabc"
   hiddenInList = true
   hiddenInSingle = true
 
-  [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
 
   [params.fuseOpts]
   isCaseSensitive = false
@@ -109,7 +106,7 @@ weight = 1
 identifier = "books"
 name = "Books"
 url = "/books/"
-weight = 10
+weight = 5
 
 [[menu.main]]
 identifier = "writing"
@@ -119,3 +116,5 @@ weight = 10
 
 [markup.highlight]
 noClasses = false
+
+
