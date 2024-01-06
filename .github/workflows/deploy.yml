@@ -32,5 +32,5 @@ jobs:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }} 
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} 
         LOCAL_DIR: public                           
-        REMOTE_DIR: /      
+        REMOTE_DIR: /arch/      
         ARGS: --delete
