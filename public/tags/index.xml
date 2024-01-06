@@ -11,6 +11,56 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
+    <lastBuildDate>Sun, 07 Jan 2024 08:06:12 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://yousyo.com/tags/hugo/</link>
+      <pubDate>Sun, 07 Jan 2024 08:06:12 +0900</pubDate>
+      <guid>https://yousyo.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>keyboard</title>
+      <link>https://yousyo.com/tags/keyboard/</link>
+      <pubDate>Sat, 06 Jan 2024 11:37:28 +0900</pubDate>
+      <guid>https://yousyo.com/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>bug</title>
+      <link>https://yousyo.com/tags/bug/</link>
+      <pubDate>Sat, 06 Jan 2024 11:35:26 +0900</pubDate>
+      <guid>https://yousyo.com/tags/bug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selenium</title>
+      <link>https://yousyo.com/tags/selenium/</link>
+      <pubDate>Sat, 06 Jan 2024 11:14:55 +0900</pubDate>
+      <guid>https://yousyo.com/tags/selenium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>zsh</title>
+      <link>https://yousyo.com/tags/zsh/</link>
+      <pubDate>Sat, 06 Jan 2024 11:12:53 +0900</pubDate>
+      <guid>https://yousyo.com/tags/zsh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>i3</title>
+      <link>https://yousyo.com/tags/i3/</link>
+      <pubDate>Sat, 06 Jan 2024 11:06:58 +0900</pubDate>
+      <guid>https://yousyo.com/tags/i3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AZIK</title>
+      <link>https://yousyo.com/tags/azik/</link>
+      <pubDate>Sat, 06 Jan 2024 11:01:48 +0900</pubDate>
+      <guid>https://yousyo.com/tags/azik/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zsh on toto arch linux</title>
+    <link>https://yousyo.com/tags/zsh/</link>
+    <description>Recent content in zsh on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 06 Jan 2024 11:12:53 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>i3-wmのターミナル周りをいじった</title>
+      <link>https://yousyo.com/archlinux/240106-4/</link>
+      <pubDate>Sat, 06 Jan 2024 11:12:53 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-4/</guid>
+      <description>ターミナルは「Terminator」だったが、Uxrvtに変更。
+ついでにzshにして、「Oh-My-ZSH!」でテーマ変更。
+補完関係のプラグインをいくつか入れ、「powerlevel10k」でトレインを追加。
+アイコンが文字化けしてたので、Meslo Nerd Fontをインストール。
+無事アイコンも表示されました。
+さらにi3-wm標準のi3statusやdmenuをPolybarやRofiに入れ替え。
+かなり見た目が変わっていい気分の正月です。</description>
+    </item>
+  </channel>
+</rss>

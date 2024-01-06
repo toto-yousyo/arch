@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yousyo.com/</loc>
-    <lastmod>2024-01-06T20:20:32+09:00</lastmod>
+    <lastmod>2024-01-07T08:06:12+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/</loc>
-    <lastmod>2024-01-06T20:20:32+09:00</lastmod>
+    <lastmod>2024-01-07T08:06:12+09:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/tags/hugo/</loc>
+    <lastmod>2024-01-07T08:06:12+09:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240107-1/</loc>
+    <lastmod>2024-01-07T08:06:12+09:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/tags/</loc>
+    <lastmod>2024-01-07T08:06:12+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/240106-10/</loc>
     <lastmod>2024-01-06T20:20:32+09:00</lastmod>
@@ -14,8 +23,14 @@
     <loc>https://yousyo.com/archlinux/240106-9/</loc>
     <lastmod>2024-01-06T12:43:04+09:00</lastmod>
   </url><url>
+    <loc>https://yousyo.com/tags/keyboard/</loc>
+    <lastmod>2024-01-06T11:37:28+09:00</lastmod>
+  </url><url>
     <loc>https://yousyo.com/archlinux/240106-8/</loc>
     <lastmod>2024-01-06T11:37:28+09:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/tags/bug/</loc>
+    <lastmod>2024-01-06T11:35:26+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/240106-7/</loc>
     <lastmod>2024-01-06T11:35:26+09:00</lastmod>
@@ -23,17 +38,29 @@
     <loc>https://yousyo.com/archlinux/240106-6/</loc>
     <lastmod>2024-01-06T11:27:29+09:00</lastmod>
   </url><url>
+    <loc>https://yousyo.com/tags/selenium/</loc>
+    <lastmod>2024-01-06T11:14:55+09:00</lastmod>
+  </url><url>
     <loc>https://yousyo.com/archlinux/240106-5/</loc>
     <lastmod>2024-01-06T11:14:55+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/240106-4/</loc>
     <lastmod>2024-01-06T11:12:53+09:00</lastmod>
   </url><url>
+    <loc>https://yousyo.com/tags/zsh/</loc>
+    <lastmod>2024-01-06T11:12:53+09:00</lastmod>
+  </url><url>
     <loc>https://yousyo.com/archlinux/240106-3/</loc>
     <lastmod>2024-01-06T11:09:52+09:00</lastmod>
   </url><url>
+    <loc>https://yousyo.com/tags/i3/</loc>
+    <lastmod>2024-01-06T11:06:58+09:00</lastmod>
+  </url><url>
     <loc>https://yousyo.com/archlinux/240106-2/</loc>
     <lastmod>2024-01-06T11:06:58+09:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/tags/azik/</loc>
+    <lastmod>2024-01-06T11:01:48+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/240106-1/</loc>
     <lastmod>2024-01-06T11:01:48+09:00</lastmod>
@@ -89,8 +116,6 @@
     <loc>https://yousyo.com/books/</loc>
   </url><url>
     <loc>https://yousyo.com/categories/</loc>
-  </url><url>
-    <loc>https://yousyo.com/tags/</loc>
   </url><url>
     <loc>https://yousyo.com/writing/</loc>
   </url>

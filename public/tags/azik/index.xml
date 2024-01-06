@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AZIK on toto arch linux</title>
+    <link>https://yousyo.com/tags/azik/</link>
+    <description>Recent content in AZIK on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 06 Jan 2024 11:01:48 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/azik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日本語入力をAZIKにしてみた</title>
+      <link>https://yousyo.com/archlinux/240106-1/</link>
+      <pubDate>Sat, 06 Jan 2024 11:01:48 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-1/</guid>
+      <description>ローマ字入力が無駄な文字打ちをしているみたいで、ずっと気になってました。
+親指シフトやDvorak入力を試したけど、当然のように挫折。
+そんなときに、AZIKを知って、試して見えることにしました。
+AZIKがいいのは、基本ローマ字入力でできるというところ。
+だから試しやすい。まず音引き「ー」を右手薬指を斜め見しながら打たなくてもよくなたった。「：」で打てます。
+あと「ます」（MS）や「ました」（MAST）が文字うち数がへったこと。
+小さい「つ」も「；」でうてること。ホーム位置から手を動かす距離も短くなります。
+慣れないうちは普通に打ってもだいたい使えます。
+少しずつ、覚えるキーが増えていくと、やる気にもつながりますね！
+しばらくはチートシートを立ち上げながら入力するほうがいいかも。
+下記をご参考まで。というかこれがすべて。
+AZIK総合解説書
+あとはGoogle日本語入力で、AZIKのテーブル（公開してくれている人がいっぱいいるみたい）を読み込めば、手軽に試せます。</description>
+    </item>
+  </channel>
+</rss>

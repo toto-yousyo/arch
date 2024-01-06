@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selenium on toto arch linux</title>
+    <link>https://yousyo.com/tags/selenium/</link>
+    <description>Recent content in Selenium on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 06 Jan 2024 11:14:55 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seleniumを入れてみた</title>
+      <link>https://yousyo.com/archlinux/240106-5/</link>
+      <pubDate>Sat, 06 Jan 2024 11:14:55 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-5/</guid>
+      <description>今日はSeleniumを入れてみました。
+Seleniumのバージョンが新しくなってると色々変わってるみたいで、すんなりとは動かなかったです。
+いろいろ試してみながら、夜になってやっとfirefoxが動いてくれました。
+あきらめずに色々と探さないといけませんね。
+↓こちらのおかげで、なんとか動きました。 【Python】SeleniumでWebスクレイピングをする Selenium NameError: name &amp;lsquo;By&amp;rsquo; is not defined - Qiita </description>
+    </item>
+  </channel>
+</rss>

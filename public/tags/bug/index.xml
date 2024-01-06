@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bug on toto arch linux</title>
+    <link>https://yousyo.com/tags/bug/</link>
+    <description>Recent content in bug on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 06 Jan 2024 11:35:26 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>タッチパッドがサスペンド復帰後に効かなくなる</title>
+      <link>https://yousyo.com/archlinux/240106-7/</link>
+      <pubDate>Sat, 06 Jan 2024 11:35:26 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-7/</guid>
+      <description>サスペンド復帰後、タッチパッドでカーソルやクリックはできるのですが、タップでのクリックだけができなくなっていました。いつものようにあれこれ試してだめだったのですが、やっと治りました。
+下記のコードを~/etc/xorg.confに書き込む
+Section &amp;#34;InputClass&amp;#34; Identifier &amp;#34;libinput touchpad catchall&amp;#34; MatchIsTouchpad &amp;#34;on&amp;#34; MatchDevicePath &amp;#34;/dev/input/event*&amp;#34; Driver &amp;#34;libinput&amp;#34; Option &amp;#34;Tapping&amp;#34; &amp;#34;on&amp;#34; EndSection </description>
+    </item>
+    <item>
+      <title>気がつけば日本語が打てなくなってた</title>
+      <link>https://yousyo.com/archlinux/240106-6/</link>
+      <pubDate>Sat, 06 Jan 2024 11:27:29 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-6/</guid>
+      <description>ずっとターミナルで設定いじっていると、いつの間にか日本語が打てなくなっていて、気がついたときには一体何が原因だったのか分からなくなってました。 色々振り返ってみるとターミナルをURxvtに変えたからだったようで、ホーム直下に.Xdefaultsを作成し、下記を入力。
+urxvt.inputMethod: fcitx あと、書体もIPAGothicに設定して、無事に日本語がうてるようになりました。</description>
+    </item>
+    <item>
+      <title>i3に変えてからサスペンド復帰後にタッチパッドが効かなくなる</title>
+      <link>https://yousyo.com/archlinux/240106-3/</link>
+      <pubDate>Sat, 06 Jan 2024 11:09:52 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-3/</guid>
+      <description>ふと気づいたら、いつの間にかサスペンドの復帰後にタッチパッドのクリックが効かなくなっていました。
+普通に動かしたり、タッチパッドを押し込むクリックはできるのに、タッチでのクリックができない。いつものようにあれこれ試してだめだったのですが、やっと治りました。
+下記のコードを~/etc/xorg.confに書き込みます。
+Section &amp;#34;InputClass&amp;#34; Identifier &amp;#34;libinput touchpad catchall&amp;#34; MatchIsTouchpad &amp;#34;on&amp;#34; MatchDevicePath &amp;#34;/dev/input/event*&amp;#34; Driver &amp;#34;libinput&amp;#34; Option &amp;#34;Tapping&amp;#34; &amp;#34;on&amp;#34; EndSection </description>
+    </item>
+  </channel>
+</rss>

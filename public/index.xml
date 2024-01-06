@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 06 Jan 2024 20:20:32 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2024 08:06:12 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの続き2</title>
+      <link>https://yousyo.com/archlinux/240107-1/</link>
+      <pubDate>Sun, 07 Jan 2024 08:06:12 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240107-1/</guid>
+      <description>とりあえずサイトは出来上がり、あとはちまちま修正をしていく。 気になったのがHOMEで希望のセクションの記事が選ばれてないこと。
+これが、どこを直したらいいのか分からず四苦八苦しました。 正解はhugo.tomlの[params]に、mainSections = [ &amp;quot;&amp;lt;HOMEに表示させたいセクション名&amp;gt;&amp;quot; ]を追加すること。
+ここまでたどり着くのに２時間あまり…。 本当に時間がいくらあっても足りない。</description>
+    </item>
     <item>
       <title>Hugoの続き</title>
       <link>https://yousyo.com/archlinux/240106-10/</link>

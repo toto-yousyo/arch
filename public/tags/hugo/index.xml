@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on toto arch linux</title>
+    <link>https://yousyo.com/tags/hugo/</link>
+    <description>Recent content in Hugo on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 07 Jan 2024 08:06:12 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの続き2</title>
+      <link>https://yousyo.com/archlinux/240107-1/</link>
+      <pubDate>Sun, 07 Jan 2024 08:06:12 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240107-1/</guid>
+      <description>とりあえずサイトは出来上がり、あとはちまちま修正をしていく。 気になったのがHOMEで希望のセクションの記事が選ばれてないこと。
+これが、どこを直したらいいのか分からず四苦八苦しました。 正解はhugo.tomlの[params]に、mainSections = [ &amp;quot;&amp;lt;HOMEに表示させたいセクション名&amp;gt;&amp;quot; ]を追加すること。
+ここまでたどり着くのに２時間あまり…。 本当に時間がいくらあっても足りない。</description>
+    </item>
+    <item>
+      <title>Hugoの続き</title>
+      <link>https://yousyo.com/archlinux/240106-10/</link>
+      <pubDate>Sat, 06 Jan 2024 20:20:32 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-10/</guid>
+      <description>Hugoの続き Github Actionで自動的にデプロイを目指してなかなか時間がかかってしまいました。 なぜか、Githubにpushして、Github Actionがうごいたところで、デプロイがいつまでも終わらない。 何がだめなのか、と思って一応サイトを見に行ったら、ちゃんとできてました。 ただ、もともとサーバーにあったフォルダがいくつか消えてました。記事がかなり消えてしまいました…。
+まあ、気を取り直し、とりあえず今手元に残っている記事だけでいくことにしました。
+画像の配置 そのまま過去記事のマークダウンファイルを使用すると、画像がリンク切れに。やっぱそうなりますよねえ。 とりあえず次は画像の貼り方を調べるとします。
+貼り付け実験　そのまま貼り付け↓ Shortcode方式で貼り付け↓
+{{&amp;lt; figure src=&amp;quot;/240105.png&amp;quot; width=&amp;quot;320&amp;quot; &amp;gt;}} </description>
+    </item>
+    <item>
+      <title>Hugoでブログを作ってみた</title>
+      <link>https://yousyo.com/archlinux/240106-9/</link>
+      <pubDate>Sat, 06 Jan 2024 12:43:04 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240106-9/</guid>
+      <description>次はHugo wordpressでブログを上げていたけれど、思い立ってHugoを使ってみることにしました。 Hugoの導入は簡単。yay -S hugoでまずはHugoをインストール。 そしてHugoのサイトの通りにまずは、Quickstartを試してから本番に進みました。
+テーマを選んでgit submoduleで読み込み。そしたら、テスト記事を作る。 hugoでHTML化し、ローカルホストで確認しました。
+それからGithubの準備。Github ActionsでPushしたらそのまま公開できるようにしたかったから。
+Hugo &amp;gt; Github Actions &amp;gt; ロリポップ ここから今契約しているロリポップにGithub Actionsを利用して公開するところで詰まってしまいました。
+Github Actionsのymlファイルのビルドで失敗。なぜかbuild &amp;amp; deployがいつまでたっても終わらない。
+そこで諦めました。うーん、よくわからん。。</description>
+    </item>
+  </channel>
+</rss>
