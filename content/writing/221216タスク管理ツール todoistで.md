@@ -2,7 +2,7 @@
 
 \2022.12.16
 
-![][christin-hume-Hcfwew744z4-unsplash]
+![](christin-hume-Hcfwew744z4-unsplash.png)
 
 [Unsplash](https://unsplash.com/ja?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)の[Christin Hume](https://unsplash.com/@christinhumephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)が撮影した写真
 
@@ -70,7 +70,7 @@
 
 あと、会議などタスクではなく、**スケジュール**にあることも見ておくことを忘れずに。今日のタスクだけ考えて、スケジュール予定見るのを忘れること、私の場合よくあります...。会議が入っている時間は、タスク完了ができませんよ。
 
-![][computer-g61331b836_1280]
+![](computer-g61331b836_1280.png)
 
 Image by [Lukas](https://pixabay.com/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2048166) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2048166)
 
@@ -90,6 +90,4 @@ Todoistはデスクトップアプリやスマホアプリのどちらもあり�
 
 外出が多くスマホを主に使用する人、主にデスクワークの人、どっちもの人、それぞれで使用するのに適したアプリがあると思います。
 
-[christin-hume-Hcfwew744z4-unsplash]: christin-hume-Hcfwew744z4-unsplash.png width=680px height=453px
 
-[computer-g61331b836_1280]: computer-g61331b836_1280.png width=680px height=450px
