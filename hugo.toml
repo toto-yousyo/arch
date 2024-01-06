@@ -1,4 +1,4 @@
-baseURL = 'https://toto.cocotte.jp/arch/'
+baseURL = 'https://yousyo.com/'
 languageCode = 'jp'
 title = 'toto arch linux'
 theme = 'PaperMod'
@@ -126,11 +126,6 @@ name = "tags"
 url = "/tags/"
 weight = 20
 
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
 
 [markup.highlight]
 noClasses = false
