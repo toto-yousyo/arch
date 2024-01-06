@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on toto arch linux</title>
-    <link>https://toto.cocotte.jp/arch/categories/</link>
+    <link>https://yousyo.com/categories/</link>
     <description>Recent content in Categories on toto arch linux</description>
     <image>
       <title>toto arch linux</title>
-      <url>https://toto.cocotte.jp/images/toto.png</url>
-      <link>https://toto.cocotte.jp/images/toto.png</link>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <atom:link href="https://toto.cocotte.jp/arch/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yousyo.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

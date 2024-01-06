@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://toto.cocotte.jp/arch/sitemap.xml
+Sitemap: https://yousyo.com/sitemap.xml

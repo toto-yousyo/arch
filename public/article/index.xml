@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on toto arch linux</title>
-    <link>https://toto.cocotte.jp/arch/article/</link>
+    <link>https://yousyo.com/article/</link>
     <description>Recent content in Articles on toto arch linux</description>
     <image>
       <title>toto arch linux</title>
-      <url>https://toto.cocotte.jp/images/toto.png</url>
-      <link>https://toto.cocotte.jp/images/toto.png</link>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <lastBuildDate>Sat, 06 Jan 2024 12:43:04 +0900</lastBuildDate>
-    <atom:link href="https://toto.cocotte.jp/arch/article/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yousyo.com/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoでブログを作ってみた</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-9/</link>
+      <link>https://yousyo.com/article/240106-9/</link>
       <pubDate>Sat, 06 Jan 2024 12:43:04 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-9/</guid>
+      <guid>https://yousyo.com/article/240106-9/</guid>
       <description>次はHugo wordpressでブログを上げていたけれど、思い立ってHugoを使ってみることにしました。 Hugoの導入は簡単。yay -S hugoでまずはHugoをインストール。 そしてHugoのサイトの通りにまずは、Quickstartを試してから本番に進みました。
 テーマを選んでgit submoduleで読み込み。そしたら、テスト記事を作る。 hugoでHTML化し、ローカルホストで確認しました。
 それからGithubの準備。Github ActionsでPushしたらそのまま公開できるようにしたかったから。
@@ -27,9 +27,9 @@ Github Actionsのymlファイルのビルドで失敗。なぜかbuild &amp;amp;
     </item>
     <item>
       <title>USキーボードに変更したメモ</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-8/</link>
+      <link>https://yousyo.com/article/240106-8/</link>
       <pubDate>Sat, 06 Jan 2024 11:37:28 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-8/</guid>
+      <guid>https://yousyo.com/article/240106-8/</guid>
       <description>外付けの87キーのUSキーを使うためのメモ。
 ノートPCは日本語配列だったので、キーボードの設定をvconsole.confを編集する。
 JPをUSに変えてみたけど、なぜかUS配列に変わってくれない。
@@ -38,26 +38,26 @@ JPをUSに変えてみたけど、なぜかUS配列に変わってくれない�
     </item>
     <item>
       <title>タッチパッドがサスペンド復帰後に効かなくなる</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-7/</link>
+      <link>https://yousyo.com/article/240106-7/</link>
       <pubDate>Sat, 06 Jan 2024 11:35:26 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-7/</guid>
+      <guid>https://yousyo.com/article/240106-7/</guid>
       <description>サスペンド復帰後、タッチパッドでカーソルやクリックはできるのですが、タップでのクリックだけができなくなっていました。いつものようにあれこれ試してだめだったのですが、やっと治りました。
 下記のコードを~/etc/xorg.confに書き込む
 Section &amp;#34;InputClass&amp;#34; Identifier &amp;#34;libinput touchpad catchall&amp;#34; MatchIsTouchpad &amp;#34;on&amp;#34; MatchDevicePath &amp;#34;/dev/input/event*&amp;#34; Driver &amp;#34;libinput&amp;#34; Option &amp;#34;Tapping&amp;#34; &amp;#34;on&amp;#34; EndSection </description>
     </item>
     <item>
       <title>気がつけば日本語が打てなくなってた</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-6/</link>
+      <link>https://yousyo.com/article/240106-6/</link>
       <pubDate>Sat, 06 Jan 2024 11:27:29 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-6/</guid>
+      <guid>https://yousyo.com/article/240106-6/</guid>
       <description>ずっとターミナルで設定いじっていると、いつの間にか日本語が打てなくなっていて、気がついたときには一体何が原因だったのか分からなくなってました。 色々振り返ってみるとターミナルをURxvtに変えたからだったようで、ホーム直下に.Xdefaultsを作成し、下記を入力。
 urxvt.inputMethod: fcitx あと、書体もIPAGothicに設定して、無事に日本語がうてるようになりました。</description>
     </item>
     <item>
       <title>Seleniumを入れてみた</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-5/</link>
+      <link>https://yousyo.com/article/240106-5/</link>
       <pubDate>Sat, 06 Jan 2024 11:14:55 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-5/</guid>
+      <guid>https://yousyo.com/article/240106-5/</guid>
       <description>今日はSeleniumを入れてみました。
 Seleniumのバージョンが新しくなってると色々変わってるみたいで、すんなりとは動かなかったです。
 いろいろ試してみながら、夜になってやっとfirefoxが動いてくれました。
@@ -66,9 +66,9 @@ Seleniumのバージョンが新しくなってると色々変わってるみた
     </item>
     <item>
       <title>i3-wmのターミナル周りをいじった</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-4/</link>
+      <link>https://yousyo.com/article/240106-4/</link>
       <pubDate>Sat, 06 Jan 2024 11:12:53 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-4/</guid>
+      <guid>https://yousyo.com/article/240106-4/</guid>
       <description>ターミナルは「Terminator」だったが、Uxrvtに変更。
 ついでにzshにして、「Oh-My-ZSH!」でテーマ変更。
 補完関係のプラグインをいくつか入れ、「powerlevel10k」でトレインを追加。
@@ -79,9 +79,9 @@ Seleniumのバージョンが新しくなってると色々変わってるみた
     </item>
     <item>
       <title>i3に変えてからサスペンド復帰後にタッチパッドが効かなくなる</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-3/</link>
+      <link>https://yousyo.com/article/240106-3/</link>
       <pubDate>Sat, 06 Jan 2024 11:09:52 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-3/</guid>
+      <guid>https://yousyo.com/article/240106-3/</guid>
       <description>ふと気づいたら、いつの間にかサスペンドの復帰後にタッチパッドのクリックが効かなくなっていました。
 普通に動かしたり、タッチパッドを押し込むクリックはできるのに、タッチでのクリックができない。いつものようにあれこれ試してだめだったのですが、やっと治りました。
 下記のコードを~/etc/xorg.confに書き込みます。
@@ -89,9 +89,9 @@ Section &amp;#34;InputClass&amp;#34; Identifier &amp;#34;libinput touchpad catch
     </item>
     <item>
       <title>ウインドウマネージャをi3にしてみた</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-2/</link>
+      <link>https://yousyo.com/article/240106-2/</link>
       <pubDate>Sat, 06 Jan 2024 11:06:58 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-2/</guid>
+      <guid>https://yousyo.com/article/240106-2/</guid>
       <description>ウィンドウマネージャにはタイル型というものがある。ここからでした。
 Arch Linuxを使っている人たちのブログのスクリーンをみて、「タイル型を使っていたんだ！」と納得。それまで、マウスでウィンドウサイズをえっちらおっちら変更して、大きさ合わせてスクショ撮ってると思ってたので。
 まず、タイル型には何があるか調べてみると、awsomeとi3が有名みたい。とりあえずNeovimみたいなやつだな！と思ってi3のほうにしました。たぶんこっちで良かった、と今は思ってます。
@@ -110,9 +110,9 @@ Neovimを使いだしてから、マウスをあまり使用しなくなり、�
     </item>
     <item>
       <title>日本語入力をAZIKにしてみた</title>
-      <link>https://toto.cocotte.jp/arch/article/240106-1/</link>
+      <link>https://yousyo.com/article/240106-1/</link>
       <pubDate>Sat, 06 Jan 2024 11:01:48 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106-1/</guid>
+      <guid>https://yousyo.com/article/240106-1/</guid>
       <description>ローマ字入力が無駄な文字打ちをしているみたいで、ずっと気になってました。
 親指シフトやDvorak入力を試したけど、当然のように挫折。
 そんなときに、AZIKを知って、試して見えることにしました。
@@ -129,9 +129,9 @@ AZIK総合解説書
     </item>
     <item>
       <title>Arch Linuxにいろいろ入れてみた</title>
-      <link>https://toto.cocotte.jp/arch/article/240106/</link>
+      <link>https://yousyo.com/article/240106/</link>
       <pubDate>Sat, 06 Jan 2024 09:22:23 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240106/</guid>
+      <guid>https://yousyo.com/article/240106/</guid>
       <description>とりあえずGitとyay Git入れないとはじまらない（ような気がする）ので、pacmanでインストール。
 そしてAURヘルパーとかいうyayをいれる。yayについて調べてると、yayの英文ページをページ翻訳して読んでたら、「イェーーーッイ」って訳されてて面白かった。
 Neovim 次はNeovim。最初はそのまま&amp;quot;Neovim&amp;quot;でインストールしたけど、やっぱりあとでNightlyに入れ直しました。
@@ -156,9 +156,9 @@ Kindle いちいちめんどくさいKindleのインストール。でも結構�
     </item>
     <item>
       <title>Arch Linuxはじめてみた</title>
-      <link>https://toto.cocotte.jp/arch/article/240105/</link>
+      <link>https://yousyo.com/article/240105/</link>
       <pubDate>Fri, 05 Jan 2024 22:43:35 +0900</pubDate>
-      <guid>https://toto.cocotte.jp/arch/article/240105/</guid>
+      <guid>https://yousyo.com/article/240105/</guid>
       <description>Arch Linuxに移行 Ubuntuの環境を、Arch Linuxに変更することにした。暇だったので。
 Arch Linuxは初心者には難しいらしい。
 思いっきり初心者だけど、archinstallを使用すれば、こんな僕でもなんとかできそうな気がした。
