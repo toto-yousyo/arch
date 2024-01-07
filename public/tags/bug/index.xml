@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 06 Jan 2024 11:35:26 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2024 11:52:14 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GihubでPushできない</title>
+      <link>https://yousyo.com/archlinux/240107-2/</link>
+      <pubDate>Sun, 07 Jan 2024 11:52:14 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240107-2/</guid>
+      <description>GithubでPushするときに、たまに下記のエラーが出る。
+fatal: unable to access &#39;https://github.com/xxxxxxxxxx/xxx.git/&#39;: Could not resolve host: github.com その場合は/etc/resolv.confを開いてnameserverの値を8.8.8.8に書き換えている。 ただ、しばらくしてから Pushしたタイミングで上記のエラーが出るので、resolv.confの値が元に戻ってることがわかる。
+Network Managerが書き換えているらしいんだけど、ずっと8.8.8.8のままになっててほしい。
+やり方はいろいろ探したら出てかるけど、めんどくさそうなので、また今度。</description>
+    </item>
     <item>
       <title>タッチパッドがサスペンド復帰後に効かなくなる</title>
       <link>https://yousyo.com/archlinux/240106-7/</link>
