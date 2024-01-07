@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 07 Jan 2024 11:52:14 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 06:36:17 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>memo</title>
+      <link>https://yousyo.com/tags/memo/</link>
+      <pubDate>Mon, 08 Jan 2024 06:36:17 +0900</pubDate>
+      <guid>https://yousyo.com/tags/memo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>network</title>
+      <link>https://yousyo.com/tags/network/</link>
+      <pubDate>Mon, 08 Jan 2024 06:36:17 +0900</pubDate>
+      <guid>https://yousyo.com/tags/network/</guid>
+      <description></description>
+    </item>
     <item>
       <title>bug</title>
       <link>https://yousyo.com/tags/bug/</link>

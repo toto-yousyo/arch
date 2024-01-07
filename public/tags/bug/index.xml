@@ -21,7 +21,7 @@
       <description>GithubでPushするときに、たまに下記のエラーが出る。
 fatal: unable to access &#39;https://github.com/xxxxxxxxxx/xxx.git/&#39;: Could not resolve host: github.com その場合は/etc/resolv.confを開いてnameserverの値を8.8.8.8に書き換えている。 ただ、しばらくしてから Pushしたタイミングで上記のエラーが出るので、resolv.confの値が元に戻ってることがわかる。
 Network Managerが書き換えているらしいんだけど、ずっと8.8.8.8のままになっててほしい。
-やり方はいろいろ探したら出てかるけど、めんどくさそうなので、また今度。</description>
+やり方はいろいろ探したら出てくるけど、めんどくさそうなので、また今度。</description>
     </item>
     <item>
       <title>タッチパッドがサスペンド復帰後に効かなくなる</title>

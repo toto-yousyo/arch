@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>memo on toto arch linux</title>
+    <link>https://yousyo.com/tags/memo/</link>
+    <description>Recent content in memo on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Mon, 08 Jan 2024 06:36:17 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WiFiの接続方法</title>
+      <link>https://yousyo.com/archlinux/240108-1/</link>
+      <pubDate>Mon, 08 Jan 2024 06:36:17 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240108-1/</guid>
+      <description>外出時にWiFiをつなげるためのメモ タリーズでコーヒーを飲みながら、ノートPCを使用しようとして、タリーズのWiFiにつなげようとしたら、方法がわかりませんでした。 スマホで調べると、nmcliで接続するみたい。
+Wifi接続方法 忘れないようにメモ terminalでnmcliをたたく # nmcli device wifi list 接続するwifiのSSIDを確認する。 wifiに接続するために下記をいれる。 # nmcli device wifi connect &amp;lt;SSID&amp;gt; &amp;lt;password&amp;gt; 参考URL 11.2. nmcli を使用した WiFi ネットワークへの接続</description>
+    </item>
+  </channel>
+</rss>

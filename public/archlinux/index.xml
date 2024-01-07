@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 07 Jan 2024 11:52:14 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 06:36:17 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WiFiの接続方法</title>
+      <link>https://yousyo.com/archlinux/240108-1/</link>
+      <pubDate>Mon, 08 Jan 2024 06:36:17 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240108-1/</guid>
+      <description>外出時にWiFiをつなげるためのメモ タリーズでコーヒーを飲みながら、ノートPCを使用しようとして、タリーズのWiFiにつなげようとしたら、方法がわかりませんでした。 スマホで調べると、nmcliで接続するみたい。
+Wifi接続方法 忘れないようにメモ terminalでnmcliをたたく # nmcli device wifi list 接続するwifiのSSIDを確認する。 wifiに接続するために下記をいれる。 # nmcli device wifi connect &amp;lt;SSID&amp;gt; &amp;lt;password&amp;gt; 参考URL 11.2. nmcli を使用した WiFi ネットワークへの接続</description>
+    </item>
     <item>
       <title>GihubでPushできない</title>
       <link>https://yousyo.com/archlinux/240107-2/</link>
@@ -21,7 +29,7 @@
       <description>GithubでPushするときに、たまに下記のエラーが出る。
 fatal: unable to access &#39;https://github.com/xxxxxxxxxx/xxx.git/&#39;: Could not resolve host: github.com その場合は/etc/resolv.confを開いてnameserverの値を8.8.8.8に書き換えている。 ただ、しばらくしてから Pushしたタイミングで上記のエラーが出るので、resolv.confの値が元に戻ってることがわかる。
 Network Managerが書き換えているらしいんだけど、ずっと8.8.8.8のままになっててほしい。
-やり方はいろいろ探したら出てかるけど、めんどくさそうなので、また今度。</description>
+やり方はいろいろ探したら出てくるけど、めんどくさそうなので、また今度。</description>
     </item>
     <item>
       <title>Hugoの続き2</title>
