@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Mon, 08 Jan 2024 06:36:17 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 11:29:08 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerを触ってみた</title>
+      <link>https://yousyo.com/archlinux/240108-2/</link>
+      <pubDate>Mon, 08 Jan 2024 11:29:08 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240108-2/</guid>
+      <description>Docker インストール yayで docker をインストールして、 $ systemctl enable docker
+ここまではうまくいったけど、そこからがエラーで進まない。dockerd --debugしてみると何やらmodule が見つからないとか。
+ChatGPTに聞いてみると、Linuxのバージョンがあってないとか古いとか。 uname -rで確認しろと言ってきた。
+一応見てみると、 Arch Linux 9.xx.xxになってる。確か昨日10になったのに。。と思って、再起動してないことを思い出しました。
+rebootして、もう一度uname -rで Arch Linux 10になってました。これでパスが通って無事見つけられたようで、何なくdockerが動いてくれました。</description>
+    </item>
     <item>
       <title>WiFiの接続方法</title>
       <link>https://yousyo.com/archlinux/240108-1/</link>
