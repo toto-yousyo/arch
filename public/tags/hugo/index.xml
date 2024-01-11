@@ -31,7 +31,7 @@
 まあ、気を取り直し、とりあえず今手元に残っている記事だけでいくことにしました。
 画像の配置 そのまま過去記事のマークダウンファイルを使用すると、画像がリンク切れに。やっぱそうなりますよねえ。 とりあえず次は画像の貼り方を調べるとします。
 貼り付け実験　そのまま貼り付け↓ Shortcode方式で貼り付け↓
-{{&amp;lt; figure src=&amp;quot;/240105.png&amp;quot; width=&amp;quot;320&amp;quot; &amp;gt;}} </description>
+{{&amp;lt; figure src=&amp;quot;images/240105.png&amp;quot; width=&amp;quot;320&amp;quot; &amp;gt;}} </description>
     </item>
     <item>
       <title>Hugoでブログを作ってみた</title>

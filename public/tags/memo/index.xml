@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Mon, 08 Jan 2024 21:44:26 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2024 21:04:24 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rangerを入れてみた</title>
+      <link>https://yousyo.com/archlinux/240111-1/</link>
+      <pubDate>Thu, 11 Jan 2024 21:04:24 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240111-1/</guid>
+      <description>ファイラをrangerに せっかくWMがi3なので、雰囲気を合わせてrangerにしました。
+neovimやfirefoxの拡張機能のTridactylと同じくキー操作だけで操作できるのがいい。
+せっかくなので、i3のキーバインドで$mod + Shift + Returnでrangerが開くようにi3のconfigに書きました。
+bindsym $mod+Shift+Return exec urxvt -e ranger
+$mod + ReturnでUrxvtが開くので、Shiftを足してファイラが開くのが直感的。
+最初はbindsym $mod+Shift+Return exec rangerとしていましたが、ターミナル経由でないと開かないんですね。</description>
+    </item>
     <item>
       <title>エラーの内容をコピーする</title>
       <link>https://yousyo.com/archlinux/240108-3/</link>
