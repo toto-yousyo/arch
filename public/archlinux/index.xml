@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 11 Jan 2024 21:04:24 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jan 2024 23:50:46 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aliasを試してみた</title>
+      <link>https://yousyo.com/archlinux/240112/</link>
+      <pubDate>Fri, 12 Jan 2024 23:50:46 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240112/</guid>
+      <description>aliasというものを知る 早く言ってよ、と思った。 Zshを使っていて、aliasを.zshrcに書けばいろいろ便利らしい。 早速nにneovimをあて、hにhugoを当ててみた。どっちも大したキーストロークでないのだけれど、得した気分。
+alias n=&amp;#39;nvim&amp;#39; alias hn=&amp;#39;hugo new&amp;#39; alias h=&amp;#39;hugo&amp;#39; 0.02秒くらい速くなるかも。</description>
+    </item>
     <item>
       <title>rangerを入れてみた</title>
       <link>https://yousyo.com/archlinux/240111-1/</link>
