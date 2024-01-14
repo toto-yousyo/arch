@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Fri, 12 Jan 2024 23:50:46 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2024 16:19:41 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/と/homeを統合した</title>
+      <link>https://yousyo.com/archlinux/240114-2/</link>
+      <pubDate>Sun, 14 Jan 2024 16:19:41 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240114-2/</guid>
+      <description>ルートパーテーションの残量が。 最初にデフォルトのままでArch Linuxをインストールしたので、ルートパーテーションが２０GBしかなく、すぐに70%の使用量に達してしまいました。
+反対に/homeパーテーションは８００GB以上あり、４GBほどしか使用していません。
+そこでちょっとこわごわですが、ルートパーテーションに統合することにしました。
+まず、/var/tmpに/homeをバックアップをとり、レスキューモードで起動しなおし、/homeのsda3をumount。
+partedでsda3のパーテーションを削除しました。 あとは/var/tmpに移した/homeをルートディレクトリに移動。
+無事に動いてくれました。土曜午前中いっぱいかかって恐る恐るでしたが、うまくいって良かったです。</description>
+    </item>
     <item>
       <title>aliasを試してみた</title>
       <link>https://yousyo.com/archlinux/240112/</link>
