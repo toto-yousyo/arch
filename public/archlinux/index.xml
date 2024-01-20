@@ -11,8 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 14 Jan 2024 16:31:41 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jan 2024 14:32:38 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ターミナルをweztermにしてみた</title>
+      <link>https://yousyo.com/archlinux/240120-1/</link>
+      <pubDate>Sat, 20 Jan 2024 14:32:38 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240120-1/</guid>
+      <description>先にalacrittyを試してみたけど、どうしても日本語入力ができず、 諦めました。
+でも、やっぱり別のターミナルも試してみたい、ということで weztermにしてみました。
+特に何も触らなくても普通に日本語がうてることに感動。 しかも設定ファイルがLua言語で書かれているのも Neovimで触ったことがあるから、tomlたjsonの設定ファイルを触るよりも わかりやすいし。これでいいや。となりました。 背景画像もセットして、かなり見た目も変わり、いい感じです。
+公式ドキュメントの充実っぷりがすごいしデザインもいいので、 もっとさわってみたいと思います！</description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>https://yousyo.com/archlinux/240118-1/</link>
+      <pubDate>Thu, 18 Jan 2024 21:35:05 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240118-1/</guid>
+      <description>nihongo</description>
+    </item>
     <item>
       <title>AndroidタブレットにArch Linuxを入れてみた</title>
       <link>https://yousyo.com/archlinux/240114-3/</link>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terminal on toto arch linux</title>
+    <link>https://yousyo.com/tags/terminal/</link>
+    <description>Recent content in terminal on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 20 Jan 2024 14:32:38 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ターミナルをweztermにしてみた</title>
+      <link>https://yousyo.com/archlinux/240120-1/</link>
+      <pubDate>Sat, 20 Jan 2024 14:32:38 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240120-1/</guid>
+      <description>先にalacrittyを試してみたけど、どうしても日本語入力ができず、 諦めました。
+でも、やっぱり別のターミナルも試してみたい、ということで weztermにしてみました。
+特に何も触らなくても普通に日本語がうてることに感動。 しかも設定ファイルがLua言語で書かれているのも Neovimで触ったことがあるから、tomlたjsonの設定ファイルを触るよりも わかりやすいし。これでいいや。となりました。 背景画像もセットして、かなり見た目も変わり、いい感じです。
+公式ドキュメントの充実っぷりがすごいしデザインもいいので、 もっとさわってみたいと思います！</description>
+    </item>
+  </channel>
+</rss>
