@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on toto arch linux</title>
+    <link>https://yousyo.com/tags/typescript/</link>
+    <description>Recent content in typescript on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 20 Jan 2024 23:16:53 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScriptもはじめてみた</title>
+      <link>https://yousyo.com/archlinux/240120-2/</link>
+      <pubDate>Sat, 20 Jan 2024 23:16:53 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240120-2/</guid>
+      <description>なんとなく、だけどTypeScriptをはじめてみた。 とりあえずNeovimの準備としてLsp_configにtypescriptを追加してみて、 本を見ながら少しずつ始める。 とりあえずHelloはできて、無事にjavascriptのファイルが生まれました。
+ReactやNode.jsも名前は聞いたことあるけど、というくらいで、 今回本を読み始めて、その正体がわかりだしました。</description>
+    </item>
+  </channel>
+</rss>
