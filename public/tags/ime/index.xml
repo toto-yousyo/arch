@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IME on toto arch linux</title>
+    <link>https://yousyo.com/tags/ime/</link>
+    <description>Recent content in IME on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Thu, 25 Jan 2024 21:41:26 +0900</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/ime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linuxで日本語をSKKにしてみた</title>
+      <link>https://yousyo.com/archlinux/240125-1/</link>
+      <pubDate>Thu, 25 Jan 2024 21:41:26 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240125-1/</guid>
+      <description>今回は日本語をSKKで入力できるようにしてみました。 例のごとく、最初は初めて片假名 がうてない。 しかしなれればと のだが わからない
+急に文字が送り仮名 が ある文字もよく わからない。 やたらと改行になるし しかしなれれば速いのはわかる気がする nihongo mata ute</description>
+    </item>
+  </channel>
+</rss>
