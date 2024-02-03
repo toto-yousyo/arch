@@ -18,7 +18,8 @@
       <link>https://yousyo.com/archlinux/240203-1/</link>
       <pubDate>Sat, 03 Feb 2024 11:20:24 +0900</pubDate>
       <guid>https://yousyo.com/archlinux/240203-1/</guid>
-      <description>修行みたい つらい… でも楽しい。少し前からAZIKでの入力を試してみているけど、一歩進んでSKKにも挑戦してみる。 ただ、文字数が少なくなるな。 もう少し練習します。 これだけ書くだけでも、疲れた。</description>
+      <description>修行みたい つらい… でも楽しい。少し前からAZIKでの入力を試してみて、その後、SKKにも挑戦してみたりしているが、今回は両方にしてみた。 Neovimにskkeletonを使ってskkに、。skkeletonの仮名テーブルをAZIKにしてみた。
+ただ、文字数が少なくなるな。 もう少し練習します。 これだけ書くだけでも、疲れた。</description>
     </item>
     <item>
       <title>Arch Linuxで日本語をSKKにしてみた</title>
