@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 25 Jan 2024 21:41:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 03 Feb 2024 11:20:24 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日本語入力にAZIKとSKKを試してみた</title>
+      <link>https://yousyo.com/archlinux/240203-1/</link>
+      <pubDate>Sat, 03 Feb 2024 11:20:24 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240203-1/</guid>
+      <description>修行みたい つらい… でも楽しい。少し前からAZIKでの入力を試してみているけど、一歩進んでSKKにも挑戦してみる。 ただ、文字数が少なくなるな。 もう少し練習します。 これだけ書くだけでも、疲れた。</description>
+    </item>
     <item>
       <title>Arch Linuxで日本語をSKKにしてみた</title>
       <link>https://yousyo.com/archlinux/240125-1/</link>
