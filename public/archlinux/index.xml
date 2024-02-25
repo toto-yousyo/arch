@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 03 Feb 2024 11:20:24 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2024 14:00:15 +0900</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tsserverとdeno-ls</title>
+      <link>https://yousyo.com/archlinux/240225-01/</link>
+      <pubDate>Sun, 25 Feb 2024 14:00:15 +0900</pubDate>
+      <guid>https://yousyo.com/archlinux/240225-01/</guid>
+      <description>navicをエラーがでるので一時的にオフにしていたが、また有効にしてみた。 エラーの内容は、tsserverとdeno-lsが競合しているため、どちらかを優先にしろ、ということだったみたい。 なのでnavicのオプションでpreferenceを加えてみた。とりあえずエラーは出なくなったが、本当にうまくいっているのかが謎。ESlinterがあるので、deno-lsはなくてもいいのだが、skkeletonで使うため、とりあえず有効にしている。LSPだけオフにできればいいのだが、やり方がわからない。</description>
+    </item>
     <item>
       <title>日本語入力にAZIKとSKKを試してみた</title>
       <link>https://yousyo.com/archlinux/240203-1/</link>
