@@ -11,8 +11,78 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 25 Feb 2024 14:00:15 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yousyo.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>stacking emacs course for RESULT.</title>
+      <link>https://yousyo.com/archlinux/240414-1/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240414-1/</guid>
+      <description>I faced emacs cpu usage 100% problem. emacs became very slow. so I check cpu usage, and emacs&amp;rsquo;s cpu usage is 100%, and many python3 running. I can&amp;rsquo;t say correctly, however 3 result of org-babel code block including RESULT. I deleted some code block including RESULT from file. and it works smooth. Resultly, I stop using LSP-bdidge. I installed &amp;lsquo;all-the-icons-dired&amp;rsquo; in Emacs. It adds icons to dired-mode, but it took some time for the icons to appear.</description>
+    </item>
+    <item>
+      <title>denote-journal</title>
+      <link>https://yousyo.com/archlinux/240413-1/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240413-1/</guid>
+      <description>today, I watched a movie about denote. It occrured me how to write the denote. It can write jouranl. I wrote every journal in org-capture.
+But I knew about denote-journal. Which should I use org-capture journal or denote-journal?
+Let&amp;rsquo;s test denote-journal. I want to watch more video about denote.
+I forget. I watched about meta note. I must create &amp;rsquo;the meta-note&amp;rsquo;. This above is sample note. it&amp;rsquo;s not metanote. I think I use a refile.</description>
+    </item>
+    <item>
+      <title>my org-agenda</title>
+      <link>https://yousyo.com/archlinux/240412-1/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240412-1/</guid>
+      <description>I added the priority to my tasks in my org-agenda. Since yesterday,I didn&amp;rsquo;t add any priorities. It happened I didn&amp;rsquo;t start important tasks and did from easy to proceed tasks. But of course It occurred bad thing. I evaluate tasks of this importance.</description>
+    </item>
+    <item>
+      <title>Exhausted day, today</title>
+      <link>https://yousyo.com/archlinux/240411-1/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240411-1/</guid>
+      <description>Exhausted day, today. I fixes LP. But I don&amp;rsquo;t understand why I can center text, why I can display: flex, why contests over rides fixed bar above. Perhaps transcend.
+I took over time to fix it. And not at all problem yet.
+What should I do after Denver l dinner. A little rust, org mode, and so on. Today I can&amp;rsquo;t create any snippets. I could do today are fix control Skk.</description>
+    </item>
+    <item>
+      <title>Exploring Yankpad and Org-mode</title>
+      <link>https://yousyo.com/archlinux/240410-1/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240410-1/</guid>
+      <description>Exploring Yankpad and Org-mode Yesterday, I installed Yankpad, a handy package for Emacs that allows me to insert snippets, including code blocks, into various buffers and files. I&amp;rsquo;m particularly excited about its ability to easily insert code blocks into Org files, as this will streamline my workflow.
+In addition to code snippets, Yankpad can also handle a wide range of text snippets, such as boilerplate email templates. Today, I plan to create a set of snippets specifically for email templates, which should save me a lot of time and effort in the long run.</description>
+    </item>
+    <item>
+      <title>lsp-bridge</title>
+      <link>https://yousyo.com/archlinux/240409-2/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240409-2/</guid>
+      <description>I wonder why Emacs in windows frequently freeze, but I make sense I didn&amp;rsquo;t install few applications for lsp-bridge. And I installed the applications. It works so well!</description>
+    </item>
+    <item>
+      <title>Repair i3 solution</title>
+      <link>https://yousyo.com/archlinux/240409-1/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240409-1/</guid>
+      <description>Repair i3 solution. When I open i3 in WSL, text is blur. In vsxrc&amp;rsquo;s property, check high solution, and restart. It works very well. And install font hackgen, config emacs to use hackgen font. It looks so good!</description>
+    </item>
+    <item>
+      <title>doom to wsl</title>
+      <link>https://yousyo.com/archlinux/240408-1/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240408-1/</guid>
+      <description>today I install emacs and doom to wsl. It can work now, so i use dotfiles, and make easy setting.</description>
+    </item>
+    <item>
+      <title>Test Emacs</title>
+      <link>https://yousyo.com/archlinux/240404-1/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240404-1/</guid>
+      <description>Today, I test emacs more. I can&amp;rsquo;t open file, can&amp;rsquo;t install packages. I only install yasnippet, Lsp-bridge. I can recognize about keybinding, how to install packages from package manager better than ever before. But concern with org-mode, I forget many tips, keybind. so worth than ever before.
+I think it is waste so much if I use only either emacs or vim. The more I use these, it become more interesting.</description>
+    </item>
     <item>
       <title>tsserverとdeno-ls</title>
       <link>https://yousyo.com/archlinux/240225-01/</link>
@@ -771,6 +841,15 @@ iphoneからUlyssesを開いて「外部フォルダを表示」から先ほど�
 とりあえず、メモなどは全てブログはUlysses、まとめていくことにしました。めちゃめちゃ悩んだにはBearと。月額がUlyssesと比べてかなり安いし、サイトの記事共有で、記事内容まで丸ごと取り込めるから「後で読む」サービスとしてもいいです。bearで見る記事なんだかみやすい。しかしそのメリットを飛ばしても、Ulysesでしてしまうことに決めました。決めては書きやすさ。特に今入力している1行にフォーカスするタイプライターモードは逸品で、これになれると普段の入力では気が散って仕方がない!
 LogseqとRoamResarchも検討。RoamResarchが一番きれいでお高い。月額約2,000円。しかしどちらもアウトライナーの文章の書き方なので、文を書くようなノートアプリを目指していたら、違うでしょう。
 iPhoneでブログのメモや本の感想などはDraftsに書いてアクションでUlyssesに飛ばしておくのが一番いいと思います。飛ばすだけ飛ばしておいて、後でUlyssesでまとめる方がいいですね。</description>
+    </item>
+    <item>
+      <title>test Emac doom to wsl</title>
+      <link>https://yousyo.com/archlinux/journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/journal/</guid>
+      <description>Test Emacs :PROPERTIES: :EXPORT_FILE_NAME: 240404-1 :EXPORT_DATE: 2024-04-04 :END
+Today, I test emacs more. I can&amp;rsquo;t open file, can&amp;rsquo;t install packages. I only install yasnippet, Lsp-bridge. I can recognize about keybinding, how to install packages from package manager better than ever before. But concern with org-mode, I forget many tips, keybind. so worth than ever before.
+I think it is waste so much if I use only either emacs or vim. The more I use these, it become more interesting.</description>
     </item>
   </channel>
 </rss>

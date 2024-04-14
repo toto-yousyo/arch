@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yousyo.com/</loc>
-    <lastmod>2024-02-25T14:00:15+09:00</lastmod>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/</loc>
-    <lastmod>2024-02-25T14:00:15+09:00</lastmod>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240414-1/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240413-1/</loc>
+    <lastmod>2024-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/tags/iphone/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240412-1/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/tags/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240411-1/</loc>
+    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240410-1/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240409-2/</loc>
+    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240409-1/</loc>
+    <lastmod>2024-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240408-1/</loc>
+    <lastmod>2024-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/240404-1/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/240225-01/</loc>
     <lastmod>2024-02-25T14:00:15+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/tags/ime/</loc>
-    <lastmod>2024-02-03T11:20:24+09:00</lastmod>
-  </url><url>
-    <loc>https://yousyo.com/tags/</loc>
     <lastmod>2024-02-03T11:20:24+09:00</lastmod>
   </url><url>
     <loc>https://yousyo.com/archlinux/240203-1/</loc>
@@ -176,6 +206,8 @@
     <loc>https://yousyo.com/books/</loc>
   </url><url>
     <loc>https://yousyo.com/categories/</loc>
+  </url><url>
+    <loc>https://yousyo.com/archlinux/journal/</loc>
   </url><url>
     <loc>https://yousyo.com/writing/</loc>
   </url>

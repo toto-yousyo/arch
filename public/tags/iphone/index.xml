@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPhone on toto arch linux</title>
+    <link>https://yousyo.com/tags/iphone/</link>
+    <description>Recent content in IPhone on toto arch linux</description>
+    <image>
+      <title>toto arch linux</title>
+      <url>https://yousyo.com/images/toto.png</url>
+      <link>https://yousyo.com/images/toto.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yousyo.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my org-agenda</title>
+      <link>https://yousyo.com/archlinux/240412-1/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240412-1/</guid>
+      <description>I added the priority to my tasks in my org-agenda. Since yesterday,I didn&amp;rsquo;t add any priorities. It happened I didn&amp;rsquo;t start important tasks and did from easy to proceed tasks. But of course It occurred bad thing. I evaluate tasks of this importance.</description>
+    </item>
+    <item>
+      <title>Exhausted day, today</title>
+      <link>https://yousyo.com/archlinux/240411-1/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240411-1/</guid>
+      <description>Exhausted day, today. I fixes LP. But I don&amp;rsquo;t understand why I can center text, why I can display: flex, why contests over rides fixed bar above. Perhaps transcend.
+I took over time to fix it. And not at all problem yet.
+What should I do after Denver l dinner. A little rust, org mode, and so on. Today I can&amp;rsquo;t create any snippets. I could do today are fix control Skk.</description>
+    </item>
+    <item>
+      <title>Exploring Yankpad and Org-mode</title>
+      <link>https://yousyo.com/archlinux/240410-1/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240410-1/</guid>
+      <description>Exploring Yankpad and Org-mode Yesterday, I installed Yankpad, a handy package for Emacs that allows me to insert snippets, including code blocks, into various buffers and files. I&amp;rsquo;m particularly excited about its ability to easily insert code blocks into Org files, as this will streamline my workflow.
+In addition to code snippets, Yankpad can also handle a wide range of text snippets, such as boilerplate email templates. Today, I plan to create a set of snippets specifically for email templates, which should save me a lot of time and effort in the long run.</description>
+    </item>
+    <item>
+      <title>lsp-bridge</title>
+      <link>https://yousyo.com/archlinux/240409-2/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240409-2/</guid>
+      <description>I wonder why Emacs in windows frequently freeze, but I make sense I didn&amp;rsquo;t install few applications for lsp-bridge. And I installed the applications. It works so well!</description>
+    </item>
+  </channel>
+</rss>
