@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yousyo.com/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Struglling with ox-hugo</title>
+      <link>https://yousyo.com/archlinux/240415-1/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yousyo.com/archlinux/240415-1/</guid>
+      <description>I installed ox-hugo to Emacs. I want to write my blog in Emacs and publish it to my blog. Same as until now, I installed it but it&amp;rsquo;s not working. I refactored my blog entries but haven&amp;rsquo;t published any yet. They&amp;rsquo;re all in one org file named journal.org.
+I&amp;rsquo;m supposed to write in this single file and then publish them as separate .md files. I added PROPERTIES to every subtree, but an error occurred and it didn&amp;rsquo;t publish.</description>
+    </item>
     <item>
       <title>stacking emacs course for RESULT.</title>
       <link>https://yousyo.com/archlinux/240414-1/</link>
